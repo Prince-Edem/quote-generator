@@ -81,3 +81,30 @@ body {
   border: 2px solid #05004e;
   color: #05004e;
 }
+
+@media (max-width: 650px) {
+  .header {
+    width: 50%;
+    font-size: 1rem;
+  }
+
+  .main-content {
+    padding: 15px 10px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-content .text-area {
+    font-size: 1.3rem;
+    line-height: 1.4;
+  }
+
+  .main-content .person {
+    font-size: 1.4rem;
+  }
+
+  .button-area button {
+    font-size: 1.1rem;
+  }
+}
