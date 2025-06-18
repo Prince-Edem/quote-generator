@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  /* background image from unsplash creator Jaredd Craig */
+  background-image: url(https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.container {
+  width: 550px;
+  height: 450px;
+}
+
+.quote::before {
+  content: open-quote;
+  color: #ff0000;
+
+}
+
+.quote::after {
+  content: close-quote;
+  color: #ff0000;
+
+}
+
+.header {
+  font-size: 1.2rem;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #05004e;
+  padding: 5px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.main-content {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 50px 40px;
+  box-shadow: 0 0 10px;
+}
+
+.main-content .text-area {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.main-content .person {
+  font-size: 1.6rem;
+  color: #ff0000;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.button-area button {
+  background-color: #05004e;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-area button:active {
+  background-color: lightgray;
+  border: 2px solid #05004e;
+  color: #05004e;
+}
