@@ -82,7 +82,7 @@ body {
   color: #05004e;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 450px) {
   .header {
     width: 50%;
     font-size: 1rem;
