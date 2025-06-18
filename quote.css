@@ -19,8 +19,8 @@ body {
 }
 
 .container {
-  width: 550px;
-  height: 450px;
+  max-width: 550px;
+  max-height: 450px;
 }
 
 .quote::before {
@@ -82,15 +82,23 @@ body {
   color: #05004e;
 }
 
-@media (max-width: 450px) {
+
+@media (max-width: 600px) {
   .header {
-    width: 50%;
+    width: 65%;
     font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
+    .container {
+    width: 100%;
+    height: 100vh;
   }
 
   .main-content {
     padding: 15px 10px;
-    width: 380px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
